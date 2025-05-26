@@ -1,7 +1,7 @@
 # rotate-image.yazi
 
 ## Requirements
-[swayimg](https://github.com/artemsen/swayimg)
+[imagemagick](https://github.com/ImageMagick/ImageMagick)
 
 ## Installation
 

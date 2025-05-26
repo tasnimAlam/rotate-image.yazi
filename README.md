@@ -1,1 +1,25 @@
-Yazi plugin to rotate image
+# rotate-image.yazi
+
+## Requirements
+![swayimg](https://github.com/artemsen/swayimg)
+
+## Installation
+
+```sh
+ya pack -a tasnimAlam/rotate-image
+```
+
+## Usage
+
+Add this to your `~/.config/yazi/keymap.toml`:
+
+```toml
+[[manager.prepend_keymap]]
+on   = ["R"]
+run  = "plugin rotate-image"
+desc = "Rotate images"
+```
+
+## License
+
+This plugin is MIT-licensed. For more information check the [LICENSE](LICENSE) file.
